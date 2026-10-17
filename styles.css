@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background: #eef2f7;
+}
+.tarjeta {
+  width: 300px;
+  padding: 32px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+h1 { margin-top: 0; text-align: center; color: #1f3b73; }
+label { margin-top: 12px; font-weight: bold; }
+input { margin-top: 4px; padding: 10px; border: 1px solid #c5ccd6; border-radius: 6px; }
+input.error { border-color: #d93025; }
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #1f3b73;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+#mensaje { min-height: 20px; text-align: center; }
+.mensaje-error { color: #d93025; }
+.mensaje-ok { color: #188038; }
